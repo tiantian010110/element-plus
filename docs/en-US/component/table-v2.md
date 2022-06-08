@@ -384,7 +384,7 @@ Note that these are `JavaScript` Objects, so that you **CANNOT USE** kebab-case 
 | minWidth       | Minimum width for the column                                              | String                                                                                                                                                           | -       |
 | width \*       | Width for the column **Required**                                         | Number                                                                                                                                                           | -       |
 | cellRenderer   | Customized Cell renderer                                                  | VueComponent/(props: [CellRenderProps](#renderer-typings)) => VNode                                                                                              | -       |
-| headerRenderer | Customized Header renderer                                                | VueComponent/(props: [HeaderRenderProps](#renderer-typings)) => VNode                                                                                            | -       |
+| headerCellRenderer | Customized Header renderer                                                | VueComponent/(props: [HeaderRenderProps](#renderer-typings)) => VNode                                                                                            | -       |
 
 ## Typings
 
